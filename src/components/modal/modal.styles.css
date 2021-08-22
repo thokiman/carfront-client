@@ -1,0 +1,26 @@
+#modal-button-update {
+    font-size: 1vw;
+    border: yellow solid 1px;
+    color:white;
+}
+
+#modal-button-update:hover {
+    transition: all 0.5s linear;
+    color:yellow;
+    border: yellow solid 1px;
+}
+
+#modal-button-add {
+    font-size: 1vw;
+    border: cyan solid 1px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom:10px;
+}
+
+#modal-button-add:hover {
+    transition: all 0.5s linear;
+    color:cyan;
+    border: cyan solid 1px;
+}

@@ -1,0 +1,64 @@
+.container {
+    padding: 25px;
+    width: 80vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position:relative;
+    left: 30px;
+}
+
+#logout {
+    font-size: 15px;
+    color: cyan;
+    padding-bottom: 5px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor:grab;
+}
+#logout:hover{
+    transition: all 0.5s linear;
+    color: whitesmoke;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.table {
+
+    border: red 1px solid;
+    color:palegreen;
+    font-size: 1.5vw;
+}
+
+#car-list-modal-button {
+    font-size: 1vw;
+    border: red solid 1px;
+    color: whitesmoke;
+    
+}
+
+#car-list-modal-button:hover {
+    transition: all 0.5s linear;
+    color:red;
+    border: red solid 1px;
+}
+
+#csv-link{
+    text-decoration: none;
+    font-size: 15px;
+    color: cyan;
+    padding-bottom: 5px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor:grab;
+}
+#csv-link:hover{
+    transition: all 0.5s linear;
+    color: whitesmoke;
+}
